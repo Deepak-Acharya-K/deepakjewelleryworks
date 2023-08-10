@@ -118,7 +118,7 @@
       .bangles-img{
         height:420px;
         width: 90%;
-        background-image: url("/img/bangles.jpg");
+        background-image: url("./img/bangles.jpg");
         background-size: cover;
         background-position: center;
       }
@@ -152,7 +152,7 @@
       .earrings-img{
         height:420px;
         width: 90%;
-        background-image: url("/img/earring.jpg");
+        background-image: url("./img/earring.jpg");
         background-size: cover;
         background-position: center;
       }
@@ -186,7 +186,7 @@
       .karimani-img{
         height:420px;
         width: 90%;
-        background-image: url("/img/karimani1.webp");
+        background-image: url("./img/karimani1.webp");
         background-size: cover;
         background-position: center;
       }
@@ -220,7 +220,7 @@
       .silver-img{
         height:420px;
         width: 90%;
-        background-image: url("/img/silver.jpg");
+        background-image: url("./img/silver.jpg");
         background-size: cover;
         background-position: center;
       }
@@ -254,7 +254,7 @@
       .rings-img{
         height:420px;
         width: 90%;
-        background-image: url("/img/rings.png");
+        background-image: url("./img/rings.png");
         background-size: cover;
         background-position: center;
       }
