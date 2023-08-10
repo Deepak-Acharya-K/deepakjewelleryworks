@@ -4,10 +4,10 @@
         margin: 0px;
         font-family: sans-serif;
     }
+    /* ------------head-conatiner----------------------*/
     .header-conatiner{
         width: 100%;
         height: 40vh;
-        /* background-color: black; */
     }
     .header-conatiner img{
         width: 100%;
@@ -24,6 +24,7 @@
             top: 0vh;
         }
       }
+      /* ------------alert-conatiner----------------------*/
       .alert-conatiner{
         width: 100%;
         height: 10vh;
@@ -33,11 +34,51 @@
         justify-content: center;
         align-items: center;
       }
-    /* ------------card_main_secrion------------------ */
+      /* ------------hero-conatiner----------------------*/
+      .hero-container{
+        width: 100%;
+        position: relative;
+        height: 100px;
+        background-image: url("https://www.orra.co.in/media/catalog/category/Diamond_1920_X_300_1-min.jpg");
+        background-position: center;
+        background-size: cover;
+        background-position-x:57%;
+        animation-name: example;
+        animation-iteration-count: infinite;
+        animation-duration:15s;
+        animation-delay: 5s;
+      }
+      @keyframes example {
+        0%{
+          background-image: url("https://www.orra.co.in/media/catalog/category/Diamond_1920_X_300_1-min.jpg");
+        }
+        20%{
+          background-image: url("https://www.orra.co.in/media/catalog/category/Coin1920_X_300_1.jpg");
+        }
+        40%{
+          background-image: url("https://www.orra.co.in/media/catalog/category/1920_X_300__Necklace_Set-min.jpg");
+        }
+        60%{
+          background-image: url("https://www.orra.co.in/media/catalog/category/1920_X_300___Earrings-min.jpg");
+        }
+        80%{
+          background-image: url("https://www.orra.co.in/media/catalog/category/1920_X_300__Rings-min.jpg");
+        }
+        100%{
+          background-image:url("https://www.orra.co.in/media/catalog/category/Diamond_1920_X_300_1-min.jpg");
+        }    
+      }
+      .hero-container img{
+        width: 100%;
+        height: 150px;
+      }
+      /* ------------card_main_secrion------------------ */
       .main-container{
         width: 100%;
         height: auto;
         background-image: url("https://glacharya.com/wp-content/uploads/2023/05/7-1.jpeg");
+        background-size: contain;
+        background-position: center;
       }
       .text-container{
         width: 100%;
@@ -344,15 +385,4 @@
         transform: translateY(0);
         opacity: 1;
       }
-
-      .r1{
-        position: relative;
-        transform: translateY(50px);
-        opacity: 0;
-        transition: 1s all ease;
-      }
-      .r1{
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }    
+    }   
