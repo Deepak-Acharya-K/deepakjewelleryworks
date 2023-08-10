@@ -84,7 +84,7 @@
       .necklace-img{
         height:420px;
         width: 90%;
-        background-image: url("/img/necklace.webp");
+        background-image: url("./img/necklace.webp");
         background-size: cover;
         background-position: center;
       }
