@@ -1,0 +1,358 @@
+@media (max-width:600px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+    }
+    .header-conatiner{
+        width: 100%;
+        height: 40vh;
+        /* background-color: black; */
+    }
+    .header-conatiner img{
+        width: 100%;
+        height: 40vh;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+      }
+      @keyframes example {
+        0%{
+            top:10vh;
+        }
+        100% {
+            top: 0vh;
+        }
+      }
+      .alert-conatiner{
+        width: 100%;
+        height: 10vh;
+        background-color:black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    /* ------------card_main_secrion------------------ */
+      .main-container{
+        width: 100%;
+        height: auto;
+        background-image: url("https://glacharya.com/wp-content/uploads/2023/05/7-1.jpeg");
+      }
+      .text-container{
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+        position: relative;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+      }
+      .text-container p{
+        font-size: 16px;
+        color: #4d4d4d;
+      }
+      .text-container h2{
+        font-size: 32px;
+        color: #4d4d4d;
+      }
+      /* ------------card_holder_secrion------------------ */
+      .div-holder{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .div-holder a{
+        text-decoration: none;
+      }
+      /* ------------necklace------------------ */
+      .necklace{
+        width: 70vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black; 
+        border-radius: 10px;  
+        background-color: #f5dda29f;
+        }
+      .necklace-img{
+        height:420px;
+        width: 90%;
+        background-image: url("/img/necklace.webp");
+        background-size: cover;
+        background-position: center;
+      }
+      .necklace-text{
+        height: 100px;
+        width: 90%;
+      }
+      .necklace-text p{
+        color: #4d4d4d;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 2vh;
+      }
+      .necklace:hover{
+        box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+      }
+      /* ------------bangles------------------ */
+      .bangles{
+        width: 70vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black; 
+        border-radius: 10px; 
+        background-color: #f5dda29f;       
+        }
+      .bangles-img{
+        height:420px;
+        width: 90%;
+        background-image: url("/img/bangles.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      .bangles-text{
+        height: 100px;
+        width: 90%;
+      }
+      .bangles-text p{
+        color: #4d4d4d;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 2vh;
+      }
+      .bangles:hover{
+        box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+      }
+      /* ------------earrings------------------ */
+      .earrings{
+        width: 70vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black; 
+        border-radius: 10px;  
+        background-color: #f5dda29f;      
+        }
+      .earrings-img{
+        height:420px;
+        width: 90%;
+        background-image: url("/img/earring.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      .earrings-text{
+        height: 100px;
+        width: 90%;
+      }
+      .earrings-text p{
+        color: #4d4d4d;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 2vh;
+      }
+      .earrings:hover{
+        box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+      }
+      /* ------------karimani------------------ */
+      .karimani{
+        width: 70vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black; 
+        border-radius: 10px;   
+        background-color: #f5dda29f;     
+        }
+      .karimani-img{
+        height:420px;
+        width: 90%;
+        background-image: url("/img/karimani1.webp");
+        background-size: cover;
+        background-position: center;
+      }
+      .karimani-text{
+        height: 100px;
+        width: 90%;
+      }
+      .karimani-text p{
+        color: #4d4d4d;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 2vh;
+      }
+      .karimani:hover{
+        box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+      }
+      /* ------------silver------------------ */
+      .silver{
+        width: 70vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black; 
+        border-radius: 10px; 
+        background-color: #f5dda29f;      
+        }
+      .silver-img{
+        height:420px;
+        width: 90%;
+        background-image: url("/img/silver.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      .silver-text{
+        height: 100px;
+        width: 90%;
+      }
+      .silver-text p{
+        color: #4d4d4d;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 2vh;
+      }
+      .silver:hover{
+        box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+      }
+      /* ------------rings------------------ */
+      .rings{
+        width: 70vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black; 
+        border-radius: 10px;  
+        background-color: #f5dda29f;      
+        }
+      .rings-img{
+        height:420px;
+        width: 90%;
+        background-image: url("/img/rings.png");
+        background-size: cover;
+        background-position: center;
+      }
+      .rings-text{
+        height: 100px;
+        width: 90%;
+      }
+      .rings-text p{
+        color: #4d4d4d;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 2vh;
+      }
+      .rings:hover{
+        box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+      }
+      /* ----------footer----------- */
+      footer{
+        /* margin-top: 5vh; */
+        width: 100%;
+        height:auto;
+        background-color: #212524;
+        color: #c5b897;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+      }
+      .foot-container h5{
+         text-align: center;
+      }
+      .foot-container a{
+        color:#c5b897 ;
+        text-decoration: none;
+      }
+      /* --------------------------------------------------design-html---------------------------------------------------- */
+      /* -----------------desin-container------------- */
+      .div-holder-jewellers{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      /* -----------------desin-card-container------------- */
+      .r1{
+        width: 70vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        border: 1px solid black; 
+        /* border-radius: 10px;   */
+        background-color: #f5dda29f; 
+        }
+      .jewellers-img img{
+        height:30vh;
+        width: 100%; 
+      }
+      .jewellers-no{
+        height: 100px;
+        width: 100%;
+      }
+      .jewellers-no p{
+        color: #4d4d4d;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 2vh;
+      }
+      /* ----------------scroll-effect-------------------- */
+      .reveal{
+        position: relative;
+        transform: translateY(50px);
+        opacity: 0;
+        transition: 1s all ease;
+      }
+      .reveal.active{
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      .r1{
+        position: relative;
+        transform: translateY(50px);
+        opacity: 0;
+        transition: 1s all ease;
+      }
+      .r1{
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }    
