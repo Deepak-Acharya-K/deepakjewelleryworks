@@ -121,6 +121,8 @@
         border: 1px solid black; 
         border-radius: 10px;  
         background-color: #f5dda29f;
+        margin-top:2vh;
+        margin-bottom:3vh;
         }
       .necklace-img{
         height:420px;
@@ -154,7 +156,9 @@
         align-items: center;
         border: 1px solid black; 
         border-radius: 10px; 
-        background-color: #f5dda29f;       
+        background-color: #f5dda29f;
+        margin-top:2vh;
+        margin-bottom:3vh;
         }
       .bangles-img{
         height:420px;
@@ -188,7 +192,9 @@
         align-items: center;
         border: 1px solid black; 
         border-radius: 10px;  
-        background-color: #f5dda29f;      
+        background-color: #f5dda29f;  
+        margin-top:2vh;
+        margin-bottom:3vh;
         }
       .earrings-img{
         height:420px;
@@ -222,7 +228,9 @@
         align-items: center;
         border: 1px solid black; 
         border-radius: 10px;   
-        background-color: #f5dda29f;     
+        background-color: #f5dda29f;  
+        margin-top:2vh;
+        margin-bottom:3vh;
         }
       .karimani-img{
         height:420px;
@@ -256,7 +264,9 @@
         align-items: center;
         border: 1px solid black; 
         border-radius: 10px; 
-        background-color: #f5dda29f;      
+        background-color: #f5dda29f; 
+        margin-top:2vh;
+        margin-bottom:3vh;
         }
       .silver-img{
         height:420px;
@@ -290,7 +300,9 @@
         align-items: center;
         border: 1px solid black; 
         border-radius: 10px;  
-        background-color: #f5dda29f;      
+        background-color: #f5dda29f;  
+        margin-top:2vh;
+        margin-bottom:3vh;
         }
       .rings-img{
         height:420px;
@@ -357,6 +369,7 @@
         border: 1px solid black; 
         /* border-radius: 10px;   */
         background-color: #f5dda29f; 
+        margin-top:5vh;
         }
       .jewellers-img img{
         height:30vh;
